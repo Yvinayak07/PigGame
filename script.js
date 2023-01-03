@@ -1,9 +1,9 @@
 'use strict';
 
-// const s = document.querySelectorAll('.score');
-// for (let i = 0; i < s.length; i++) {
-//   s[i].textContent = 0;
-// }
+const s = document.querySelectorAll('.score');
+for (let i = 0; i < s.length; i++) {
+  s[i].textContent = 0;
+}
 let player0Name = prompt('Enter the name of player 1');
 console.log(player0Name);
 let player1Name = prompt('Enter the name of player 2');
