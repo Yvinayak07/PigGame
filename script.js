@@ -4,10 +4,10 @@
 // for (let i = 0; i < s.length; i++) {
 //   s[i].textContent = 0;
 // }
-// let player0Name = prompt('Enter the name of player 1');
-// console.log(player0Name);
-// let player1Name = prompt('Enter the name of player 2');
-// console.log(player1Name);
+let player0Name = prompt('Enter the name of player 1');
+console.log(player0Name);
+let player1Name = prompt('Enter the name of player 2');
+console.log(player1Name);
 const player0 = document.querySelector('.player--0');
 const player1 = document.querySelector('.player--1');
 const score0E = document.querySelector('#score--0');
